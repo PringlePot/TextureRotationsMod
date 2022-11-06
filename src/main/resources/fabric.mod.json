@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "texturerotations",
+  "version": "${version}",
+  "name": "Texturerotations",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/texturerotations/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.pringles.texturerotations.client.TexturerotationsClient"
+    ],
+    "main": [
+      "me.pringles.texturerotations.Texturerotations"
+    ]
+  },
+  "mixins": [
+    "texturerotations.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
